@@ -1,0 +1,54 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+}
+input[type="text"],input[type=number],input[type=submit],
+select{
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type="submit"]{
+     background-color: #ee5466;
+     border:  none;
+     color: white;
+     cursor: pointer;
+     
+}
+input[type="submit"]:hover{
+    background-color: #f13349;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    /* border: 1px solid #130404; */
+    
+}
+
+th,td{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+th{
+    background-color: #ee5466;
+    color: white;
+}
+
+th:hover{
+    color: #4b4344;
+}
+
+tr{
+    color: rgb(86, 82, 82);
+}
